@@ -16,7 +16,7 @@ if system == "linux":
     os.system("git clone https://github.com/OWASP/SecurityShepherd.git")
     print("original link: https://github.com/OWASP/SecurityShepherd")
     os.system("sudo gpasswd -a $USER docker")
-    os.system("cd SecurityShepherd")
+    os.chdir("SecurityShepherd")
     os.system("mvn -Pdocker clean install -DskipTests")
     os.system("docker-compose up -d")
 if system == "arch":
