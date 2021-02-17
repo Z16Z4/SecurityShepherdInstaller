@@ -22,7 +22,7 @@ $python3 main.py
 #### Stopping Security Shepherd
 once security shepherd is installed run this command to stop  it
 ```
-$cd SecurityShepherdInstaller
+$cd SecurityShepherdInstaller/SecurityShepherd
 $docker-compose down
 ```
 
