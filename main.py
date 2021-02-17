@@ -5,6 +5,8 @@ import re
 import sys
 import os
 from sys import platform
+print("please make sure you are using python3")
+print("to install python3, run : sudo apt-get install python3")
 print("select linux if your using ubuntu or kali linux")
 system = input("please enter your system (linux/arch)")
 if system == "linux":
@@ -19,6 +21,11 @@ if system == "linux":
     os.chdir("SecurityShepherd")
     os.system("mvn -Pdocker clean install -DskipTests")
     os.system("docker-compose up -d")
+    print("SecurityShepherd is running in the background in a docker container")
+    print("To Stop SecurityShepherd please run this command below")
+    print("Enter docker-compose down in this current directory")
+    print("to view all current docker containers run: docker ps -a")
+    print("Go to http://127.0.0.1")
 if system == "arch":
     os.system("work in progress")
 
