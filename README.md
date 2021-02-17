@@ -22,6 +22,7 @@ $docker-compose down
 ```
 
 ## Log-In Details:
+once you gain access to security shepherd you will need to enable all the modules we use
 ```
 username : admin
 password: password
