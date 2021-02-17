@@ -20,10 +20,18 @@ $python3 main.py
 $cd SecurityShepherdInstaller
 $docker-compose down
 ```
+
+## Log-In Details:
+```
+username : admin
+password: password
+```
+
 ## Fixing possible errors
 your machine may need to be restarted because docker installed, run this command below:
 ```
 sudo shutdown -r now
 ```
+
 
 
