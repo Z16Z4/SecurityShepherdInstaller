@@ -9,13 +9,18 @@ https://github.com/OWASP/SecurityShepherd.git
 ### Setup for Running Installer
 ```
 $sudo apt-get install python3 git -y
+
 $git clone https://github.com/cronos-hash/SecurityShepherdInstaller.git
+
 $cd SecurityShepherdInstaller
+
 $python3 main.py
 
 ```
 
-## Stopping Security Shepherd
+
+#### Stopping Security Shepherd
+once security shepherd is installed run this command to stop  it
 ```
 $cd SecurityShepherdInstaller
 $docker-compose down
