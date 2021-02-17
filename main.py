@@ -13,7 +13,7 @@ if system == "linux":
     print("installing Security shephard dependencies")
     os.system("sudo apt-get install git maven docker docker-compose default-jdk -y")
     print("downloading securityshepherd from github ")
-    os.system("git clone https://github.com/OWASP/SecurityShepherd")
+    os.system("git clone https://github.com/OWASP/SecurityShepherd.git")
     print("original link: https://github.com/OWASP/SecurityShepherd")
     os.system("sudo gpasswd -a $USER docker")
     os.system("cd SecurityShepherd")
