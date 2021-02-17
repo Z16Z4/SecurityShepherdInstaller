@@ -35,6 +35,7 @@ password: password
 
 ## Fixing possible errors
 To fix this error ERROR: Couldn't connect to Docker daemon at http+docker://localhost - is it running?
+This error requires a reboot
 ```
 sudo shutdown -r now
 ```
