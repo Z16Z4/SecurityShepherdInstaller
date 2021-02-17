@@ -34,7 +34,7 @@ password: password
 ```
 
 ## Fixing possible errors
-your machine may need to be restarted because docker installed, run this command below:
+To fix this error ERROR: Couldn't connect to Docker daemon at http+docker://localhost - is it running?
 ```
 sudo shutdown -r now
 ```
