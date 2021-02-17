@@ -35,10 +35,15 @@ password: password
 
 ## Fixing possible errors
 To fix this error ERROR: Couldn't connect to Docker daemon at http+docker://localhost - is it running?
-This error requires a reboot
+This error requires a reboot: use this command below:
 ```
 sudo shutdown -r now
 ```
+once the reboot occurs then run the script again using the command below
+```
+cd SecurityShepherdInstaller
+python3 main.py
+
 
 
 
