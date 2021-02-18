@@ -43,7 +43,4 @@ once the reboot occurs then run the script again using the command below
 ```
 cd SecurityShepherdInstaller
 python3 main.py
-
-
-
-
+```
